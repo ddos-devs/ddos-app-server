@@ -2,7 +2,7 @@ const express = require('express');
 const path = require('path');
 const request = require('request');
 const app = express();
-const port = 3001;
+const port = 80;
 
 app.get('/', (req, res) => res.send("hello world!!!"));
 app.get('/newsletter', (req, res) => {
